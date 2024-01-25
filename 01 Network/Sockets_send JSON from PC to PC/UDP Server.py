@@ -36,6 +36,7 @@ while True:
 
     # Extract values
     package_number = decoded_data.get('packagenumber')
+    command = decoded_data.get('command')
     rgb_values = decoded_data.get('rgb_values')
 
     # Process the data as needed
